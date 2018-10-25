@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Registration Detail
+{% endblock title %}
+
+{% block content %}
+    
+    <div class="card">
+            <div class="card-header">
+              <h4>Registration Detail</h4>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">{{ registration.event }}</h4>
+              <p class="card-text">
+                    {{ registration.status }}
+              </p>
+            </div>
+    </div>
+          
+{% endblock content %}
